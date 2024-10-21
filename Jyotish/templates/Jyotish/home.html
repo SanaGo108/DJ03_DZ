@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}  <!-- Добавьте эту строку -->
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Добро пожаловать на сайт Джйотиш</h1>
+    <img src="{% static 'img/sarasvaty.png' %}" alt="Логотип Джйотиш" class="img-fluid mt-3" style="max-width: 200px;">
+</div>
+{% endblock %}
